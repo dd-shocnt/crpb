@@ -1,9 +1,13 @@
 {
-    "name": "cloud-run-demo-python",
+    "name": "su-cloudrun-python",
     "env": {
         "DD_API_KEY": {
             "description": "Your Datadog's API KEY (see: https://docs.datadoghq.com/account_management/api-app-keys)",
             "required": true
+        },
+        "DD_VERSION": {
+            "description": "app version",
+            "reqired": true
         }
     },
     "options": {
