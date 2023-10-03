@@ -7,7 +7,7 @@
         },
         "DD_VERSION": {
             "description": "app version",
-            "reqired": true
+            "required": true
         }
     },
     "options": {
