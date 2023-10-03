@@ -5,6 +5,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return Response("{\"msg\":\"Hello world from su-cloudrun-python!\"}", status=200, mimetype='application/json')
+    return Response("{\"msg\":\"Hello world from su-cloudrun-python　os.environ.get("DD_VERSION")!\"}", status=200, mimetype='application/json')
 
 app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
