@@ -15,4 +15,5 @@ ENV DD_SERVICE=cloudrun-js
 ENV DD_ENV=su-cloudrun
 
 ENTRYPOINT ["/app/datadog-init"]
-CMD ["/nodejs/bin/node /app/app.js"]
+#CMD ["/nodejs/bin/node /app/app.js"]
+CMD ["npm", "run", "start"]
