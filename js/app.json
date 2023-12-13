@@ -4,6 +4,11 @@
         "DD_API_KEY": {
             "description": "Your Datadog's API KEY (see: https://docs.datadoghq.com/account_management/api-app-keys)",
             "required": true
+        },
+        "DD_VERSION": {
+            "description": "app version",
+            "required": true,
+            "value": "1.1.0"
         }
     },
     "options": {
