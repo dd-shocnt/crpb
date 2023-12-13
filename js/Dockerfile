@@ -11,9 +11,8 @@ COPY --from=build-env /app /app
 COPY --from=datadog/serverless-init:1 /datadog-init /app/datadog-init
 
 ENV NODE_OPTIONS="--require dd-trace/init"
-ENV DD_SERVICE=datadog-demo-run-js
-ENV DD_ENV=datadog-demo
-ENV DD_VERSION=1
+ENV DD_SERVICE=cloudrun-js
+ENV DD_ENV=su-cloudrun
 
 ENTRYPOINT ["/app/datadog-init"]
 CMD ["/nodejs/bin/node /app/app.js"]
