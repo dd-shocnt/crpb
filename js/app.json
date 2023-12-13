@@ -1,5 +1,5 @@
 {
-    "name": "cloud-run-demo-js",
+    "name": "su-cloudrun-js",
     "env": {
         "DD_API_KEY": {
             "description": "Your Datadog's API KEY (see: https://docs.datadoghq.com/account_management/api-app-keys)",
