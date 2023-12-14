@@ -12,7 +12,7 @@
     },
     "author": "Maxime David",
     "dependencies": {
-        "dd-trace": "^2.2.0",
+        "dd-trace": "*",
         "express": "^4.17.1"
     }
 }
